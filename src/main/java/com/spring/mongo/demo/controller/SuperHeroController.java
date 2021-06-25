@@ -39,7 +39,7 @@ public class SuperHeroController {
     }
 
     
-    @GetMapping("/")
+    @GetMapping("/api")
     public String test() {
         
         return "OPTUM TEST SUCCESS";
