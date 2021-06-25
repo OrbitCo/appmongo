@@ -38,6 +38,13 @@ public class SuperHeroController {
         return ResponseEntity.ok().body(list);
     }
 
+    
+    @GetMapping("/")
+    public String test() {
+        
+        return "OPTUM TEST SUCCESS";
+    }
+
 
     @GetMapping("/{id}")
     public ResponseEntity<?> findById(@PathVariable String id) {
